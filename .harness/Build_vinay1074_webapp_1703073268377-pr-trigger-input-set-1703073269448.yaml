@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_vinay1074_webapp_1703073268377-pr-trigger-input-set
+  identifier: Build_vinay1074_webapp_1703073268377prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_vinay1074_webapp_1703073268377
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
