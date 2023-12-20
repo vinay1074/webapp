@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_vinay1074_webapp_1703073268377-push-trigger-input-set
+  identifier: Build_vinay1074_webapp_1703073268377pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_vinay1074_webapp_1703073268377
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
